@@ -1,0 +1,36 @@
+# Environnement virtuel
+.venv/
+venv/
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache Hugging Face
+.cache/
+huggingface/
+
+# Données volumineuses
+data/input.txt
+data/*.parquet
+data/raw/
+data/model.pt
+data/*.pt
+data/*.pth
+data/*.bin
+
+# Logs et résultats temporaires
+*.log
+results/
+checkpoints/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
+.idea/
